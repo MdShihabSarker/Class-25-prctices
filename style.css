@@ -1,0 +1,351 @@
+
+.fixt-width{
+    max-width: 1400px;
+}
+
+
+.logo-img img{
+ margin-right: 40px;
+}
+
+ .heade-menu ul.item-menu{
+    display: flex;
+  margin-left: 120px;
+  transition: .5s; 
+}
+.heade-menu ul.item-menu li{
+   padding: 10px 15px;
+   list-style: none;
+   transition: .5s; 
+}
+ul.item-menu li a{
+display: inline-block;
+text-decoration: none;
+color: #222;
+font-weight: bolder;
+transition: .5s; 
+}
+ul.item-menu li:hover {
+    color:#e83b3e ;
+}
+.item-menu .active{
+    color:#e83b3e ;
+}
+/* -------- Drop Down --------------- */
+ul.item-menu li{
+position: relative;
+}
+ul.item-menu li ul.first{
+    font-weight: bold;
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 220px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px;
+    color: #e83b3e;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-in-out;
+}
+ul.item-menu li ul .first li{
+flex-direction: column;
+
+font-size: 40px;
+}
+ul.item-menu li ul .first li a{
+display: inline-block;
+letter-spacing: 0;
+}
+ul.item-menu li:hover > a{
+    color: #e83b3e;
+    letter-spacing: .5px;
+}
+ul.item-menu li:hover ul.first{
+    opacity: 1;
+    visibility: visible;
+    top: 100%; 
+}
+ul.item-menu li ul.two{
+    font-weight: bold;
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 250px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px;
+    color: #e83b3e;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-in-out;
+}
+ul.item-menu li:hover ul.two{
+    opacity: 1;
+    visibility: visible;
+    top: 100%; 
+}
+
+/* ------------ Menu section end--------------- */
+
+.header-info{
+    justify-content: center;
+}
+.header-info .header-surch {
+    padding: 19px 0;
+    font-size: 24px;
+    text-align: center;
+   
+    margin: auto;
+}
+.header-info .header-surch i{
+    border-right: 1px solid #ddd;
+   margin: auto;
+}
+.header-call{
+    position: relative;
+}
+.header-call .header-call-icon{
+ position: absolute;
+ left: 32px;
+ top: 15px;
+}
+.header-call-icon span{
+    font-size: 30px;
+}
+.header-call .header-call-info{
+position: relative;
+top: 13px;
+left: 75px;
+}
+.header-call .header-call-info span{
+    font-weight: 400;
+    color: #606060;
+}
+.our-baton{
+    position: relative;
+    top: 14px;
+    left: 97px;
+    border-color:#e83b3e ;
+    /* margin: 30px 95px; */
+    font-size: 16px;
+    padding: 12px 41px;
+    background-color: #e83b3e !important;
+    z-index: 1;
+   
+}
+.our-baton{
+    position: relative;
+}
+.our-baton::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: #111;
+    border-color: #111;
+    z-index: -1;
+    transition: .5s;
+}
+.our-baton:hover{
+    border-color: #111;
+}
+.our-baton:hover::before{
+    width: 100%;
+}
+
+
+.slider-content-wrap{
+    display: flex;
+    height: 120vh;
+    align-items: center;
+    position: relative;
+   
+}
+.slider-content .our-baton {
+    margin-left: -119px;
+}
+
+.header-social .list-items{
+    position: absolute;
+    top: 650px;
+    left: 10px;
+    list-style-type: none;
+}
+.header-social ul.list-items li{
+    padding: 0 10px;
+    position: relative;
+
+}
+.header-social ul.list-items li a{
+    color: #000;
+}
+.header-social ul li span{
+    margin-right: 35px;
+}
+.header-social ul li span::after{
+    content: "";
+    width: 35px;
+    height: 1px;
+    background-color: #111;
+    position: absolute;
+    top: 12px;
+    left: 85px;
+}
+.slider-content h1{
+    font-size: 4.1rem;
+    font-weight: 600;
+}
+.slider-content h6{
+    color: #e83b3e;
+}
+.slider-content p{
+    color: #6a6060;
+    font-weight: 500;
+}
+.slider-section{
+    background-image: url("https://img.hotimg.com/asset-19.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+/*  end */
+/* start */
+.logo-section{
+    margin-top: 100px;
+}
+.client-logo{
+    border-bottom: 1px solid #8a8787;
+}
+.client-logo ul{
+    display: flex;
+    justify-content: space-between;
+}
+.client-logo ul li{
+    list-style-type: none;
+    padding: 0 40px;
+    margin-left: -45px;
+}
+.client-logo ul li a{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+/* end */
+
+
+/*start  */
+
+.About-section{
+    margin-top: 90px;
+}
+.image{
+    position: relative;
+    margin-left: -60px;
+}
+.sub-logo{
+    position: absolute;
+    left: 62%;
+    top: 65%;
+    background-image: url("https://img.hotimg.com/asset-20.png");
+    width: 190px;
+    height: 190px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-text h1{
+    color: #e73c3e;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+/* end */
+
+
+/* start */
+
+.About-section .about-text{
+
+}
+.About-section .about-text h6{
+    color: #e73c3e;
+    font-weight: 400;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+.About-section .about-text h1{
+    font-weight: 400;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.About-section .about-text p{
+    color: #606060;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.About-section .about-text h5{
+    color: #606060;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.about-text .list{}
+.about-text .list ul{ 
+    margin-left: -30px;
+}
+.about-text .list ul li{
+    list-style-type: none;
+ }
+.about-text .list ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #606060;
+ }
+.about-text .our-baton{
+    margin-left: -120px;
+}
+/* end */
+
+
+/* start */
+.choose-area{
+    background-color: #f9fafb;
+    margin-top: 100px;
+}
+.choose-area .about-text{
+    padding-top: 80px;
+}
+.choose-area .about-text h6{
+    color: #e73c3e;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px; color: #e73c3e;
+}
+.choose-area .about-text h1{
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.choose-area .about-text p{
+    color: #606060;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+/* end */
